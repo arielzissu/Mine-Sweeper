@@ -1,0 +1,129 @@
+h1 {
+  font-style: italic;
+  color: red;
+  font-size: 50px;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(243, 235, 235);
+}
+
+.allButtom {
+  text-align: center;
+  position: relative;
+}
+
+.board {
+  background-color: #5d8cf4;
+  margin: 1px;
+  text-align: center;
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-style: oblique;
+}
+
+.board:hover {
+  background-color: rgb(141, 212, 245);
+}
+
+.game-board {
+  max-height: 500px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.button {
+  height: 60px;
+  background-color: rgb(12, 240, 183);
+  margin-right: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(232, 241, 238);
+}
+
+.lifes {
+  height: 30px;
+}
+
+td {
+  display: table-cell;
+}
+
+.marked {
+  background-color: red;
+}
+
+.createBomb {
+  background-color: rgb(235, 29, 29);
+  margin-bottom: 20px;
+}
+
+.createBomb:hover {
+  background-color: rgb(231, 140, 140);
+}
+
+.newBomb {
+  background-color: rgb(231, 160, 219);
+}
+
+.newBomb:hover {
+  background-color: rgb(190, 140, 200);
+}
+
+.all-btns-size {
+  margin-bottom: 15px;
+}
+
+.hint-btn {
+  height: 30px;
+}
+
+.special-btns-main1 {
+  margin-bottom: 15px;
+}
+
+.special-btns-main2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.timer {
+  font-size: 20px;
+}
+
+.reset {
+  height: 40px;
+  width: 40px;
+  border: 2px solid black;
+  background-color: rgb(243, 57, 10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.reset:hover {
+  cursor: pointer;
+  background-color: rgb(233, 141, 141);
+}
+
+.change {
+  background-color: rgb(38, 33, 99);
+  color: white;
+  padding: 5px;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+.change:hover {
+  background-color: rgb(240, 158, 158);
+  cursor: pointer;
+}
+.dark-mode {
+  background-color: rgb(131, 128, 128);
+  color: white;
+}

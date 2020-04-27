@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mine Swipper</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="container" onload="init()">
+    <h1>Mine Swipper:</h1>
+    <div class="allButtom">
+      <div class="all-btns-size">
+        <button onclick="changeSize(4, 2)" class="buttom">Easy</button>
+        <button onclick="changeSize(8, 12)" class="buttom">Medium</button>
+        <button onclick="changeSize(12, 30)" class="buttom">Hard</button>
+      </div>
+      <div class="special-btns-main1">
+        <button onclick="hintMode()" class="hint-btn special"></button>
+        <button class="lifes"></button>
+      </div>
+      <div class="special-btns-main2">
+        <div onclick="init()" class="reset special"></div>
+        <div class="timer"></div>
+      </div>
+      <button class="change" onclick="changeLight()">Night Mode</button>
+    </div>
+    <table class="game-board"></table>
+
+    <script src="main.js"></script>
+  </body>
+</html>
