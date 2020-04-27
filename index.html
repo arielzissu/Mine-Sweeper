@@ -17,14 +17,20 @@
         <button onclick="changeSize(12, 30)" class="buttom">Hard</button>
       </div>
       <div class="special-btns-main1">
-        <button onclick="hintMode()" class="hint-btn special"></button>
-        <button class="lifes"></button>
+        <button
+          onclick="hintMode()"
+          class="hint-btn special"
+          title="Hints"
+        ></button>
+        <button class="lifes" title="Lifes"></button>
       </div>
       <div class="special-btns-main2">
-        <div onclick="init()" class="reset special"></div>
+        <div onclick="init()" class="reset special" title="Reset Game"></div>
         <div class="timer"></div>
       </div>
-      <button class="change" onclick="changeLight()">Night Mode</button>
+      <button class="change" onclick="changeLight()" title="Change Color">
+        Night Mode
+      </button>
     </div>
     <table class="game-board"></table>
 
